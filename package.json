@@ -1,0 +1,31 @@
+{
+  "name": "@danmaqua/danmaku-src-common",
+  "description": "Danmaku source common code",
+  "version": "0.1.1",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmaqua/danmaku-src-common.git"
+  },
+  "author": {
+    "email": "fythonx@gmail.com",
+    "name": "fython",
+    "url": "https://github.com/fython"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmaqua/danmaku-src-common/issues"
+  },
+  "homepage": "https://github.com/danmaqua/danmaku-src-common#readme",
+  "files": [
+    "index.d.ts",
+    "src"
+  ],
+  "typings": "index.d.ts",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
