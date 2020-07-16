@@ -30,7 +30,7 @@ class BaseDanmakuWebSocketSource extends EventEmitter {
             if (this.basicAuth) {
                 const authHeader = socket.handshake.headers['authorization'];
                 if (this.basicAuth !== authHeader) {
-                    onAuthError(socket);
+                    this.onAuthError(socket);
                     return next(new Error('Authentication error.'));
                 }
             }
